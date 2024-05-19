@@ -1,0 +1,21 @@
+{
+    "name": "pmacieca/laracasts-php-testing-jargon",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Patrick Maciel",
+            "email": "patrickmaciel.info@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "test/"
+        }
+    }
+}
